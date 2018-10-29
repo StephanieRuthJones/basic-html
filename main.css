@@ -1,7 +1,77 @@
-.definition {
-    background-color: red;
+body, html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background: red;
 }
 
-.dudeslist {
-    background: lightblue url()
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    padding:1px;
+    border:1px solid #021a40;
+}
+
+h1 {
+    background: blue;
+    font-style: "Open Sans" 
+}
+
+h2 {
+    background: blue;
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul, ol {
+    background: turquoise;
+    list-style-type: none;
+}
+
+#listimage {
+    list-style-type: square;
+}
+
+#interpretation {
+    list-style-type: circle;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+}
+
+.SK_Definition {
+    width:750px;
+    margin:0 auto;
+    padding: 20px
+}
+
+.SK_List {
+    display:inline-block;
+    width:400px;
+    background: powderblue;
+    margin: 20px 10px;
+}
+
+.SK_Quotes {
+    display:inline-block;
+    width:400px;
+    background: powderblue;
+    margin: 20px 10px;
+}
+
+.IRL_Superheroes {
+    display:inline-block;
+    clear:both;
+    width:400px;
+    background: powderblue;
+    margin:0 auto;
+}
+
+.Quote {
+    font-style: italic;
 }
